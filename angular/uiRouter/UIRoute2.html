@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="routerApp">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="../farms/bootstrap-3.0.0/css/bootstrap.css" />
+</head>
+<body>
+
+
+<div>
+	<nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="#">AngularUI Router</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li>
+                <a ui-sref="home">Home</a>
+            </li>
+            <li>
+                <a ui-sref="about">About</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div ui-view=""></div>
+    </div>
+</div>
+	
+<script src="../farms/angular.min.js"></script>
+<script src="../farms/angular-ui-router.js"></script>
+<!--<script src="../farms/angular-animate.min.js"></script>-->
+<script src="UIRoute2.js"></script>
+
+</body>
+</html>
