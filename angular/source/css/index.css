@@ -20,6 +20,29 @@
     background:#E59400;
     color:#FFFFFF;
 }
+
+/*@keyframes rotateFall{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	20%{
+		transform: rotateZ(15deg);
+        animation-timing-function: linear;
+	}
+	40%{
+		transform: rotateZ(18deg);
+	}
+	60%{
+		transform: rotateZ(16deg);
+	}
+	80%{
+		transform: rotateZ(17deg);
+	}
+	100%{
+		transform: rotateY(100%) rotateZ(17deg);
+		
+	}
+}*/
 @keyframes rotateFall {
     0% {
         transform: rotateZ(0deg);
@@ -78,7 +101,7 @@
     z-index: 9999;
 }
 .hello.ng-enter {
-    animation: scaleUp 0.5s both ease-in;
+    animation: scaleUp 1s both ease-in;
 }
 .hello.ng-leave {
     transform-origin: 0% 0%;
